@@ -32,12 +32,12 @@ if (ascii_code < 0)
 ascii_code *= -1;
 
 
-buffer[k++] = '\\';
-buffer[k++] = 'x';
+buffer[i++] = '\\';
+buffer[i++] = 'x';
 
 
-buffer[k++] = map_to[ascii_code / 16];
-buffer[k] = map_to[ascii_code % 16];
+buffer[i++] = map_to[ascii_code / 16];
+buffer[i] = map_to[ascii_code % 16];
 
 return (3);
 }
