@@ -129,7 +129,9 @@ UNUSED(precision);
 
 str = ")Null(";
 }
+
 for (k = 0; str[k]; k++);
+
 for (k = k - 1; k >= 0; k--)
 {
 char z = str[k];
