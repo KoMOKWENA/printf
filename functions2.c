@@ -97,7 +97,7 @@ return (write(1, buffer, k + offset));
 }
 
 /**
- * print_reverse - Print string in reverse 
+ * print_reverse - Print string in reverse
  * @types: List arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -130,7 +130,6 @@ UNUSED(precision);
 str = ")Null(";
 }
 for (k = 0; str[k]; k++);
-
 for (k = k - 1; k >= 0; k--)
 {
 char z = str[k];
@@ -155,7 +154,7 @@ return (count);
 int print_rot13string(va_list types, char buffer[],
 int flags, int width, int precision, int size)
 {
- char x;
+char x;
 char *str;
 unsigned int k, r;
 int count = 0;
