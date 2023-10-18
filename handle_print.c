@@ -26,8 +26,8 @@ fmt_t fmt_types[] = {
 };
 
 for (k = 0; fmt_types[k].fmt != '\0'; k++)
-if (fmt[*ind] == fmt_types[i].fmt)
-return (fmt_types[i].fn(list, buffer, flags, width, precision, size));
+if (fmt[*ind] == fmt_types[k].fmt)
+return (fmt_types[k].fn(list, buffer, flags, width, precision, size));
 
 if (fmt_types[k].fmt == '\0')
 {

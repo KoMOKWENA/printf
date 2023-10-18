@@ -163,8 +163,8 @@ buffer[k--] = flag_ch;
 buffer[k--] = '0';
 }
 
-i++;
+k++;
 
-return (write_unsgnd(0, i, buffer, flags, width, precision, size));
+return (write_unsgnd(0, k, buffer, flags, width, precision, size));
 }
 
