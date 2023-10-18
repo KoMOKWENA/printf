@@ -60,7 +60,7 @@ return (0);
 
 
 /**
- * convert_size_number - Casts a number to the specified size
+ * convert_size_number - Casts a number to a specified size
  * @num: Number to be casted.
  * @size: Number indicating the type to be casted.
  *
@@ -79,7 +79,7 @@ return ((int)num);
 
 
 /**
- * convert_size_unsgnd - Casts a number to the specified size
+ * convert_size_unsgnd - Casts a number a aspecified size
  * @num: Number to be casted
  * @size: Number indicating the type to be casted
  *
