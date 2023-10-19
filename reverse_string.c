@@ -19,7 +19,7 @@ if (!str)
 {
 str = "(null)";
 for (i = 0; i < 6; i++)
-_putchar(str[i]);
+putchar(str[i]);
 return (0);
 }
 while (*str)
